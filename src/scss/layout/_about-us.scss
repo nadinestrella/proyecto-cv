@@ -1,0 +1,42 @@
+.aboutus{
+    height: 2225px;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+
+    &__title{
+        text-transform: uppercase;
+        color: $color-blue-green;
+        font-family: $font-rubik;
+        font-size: 24px;
+        text-align: center;
+    
+    }
+    &__figure{
+        text-align: center;
+
+    }
+    &__image{
+        width: 180px;
+        height: 180px;
+        border: solid 5px $color-light-grey-blue;
+        border-radius: 4px;
+
+    }
+    &__name{
+        font-size: 20px;
+        color: $color-black;
+        text-align: center;
+    }
+    &__description{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+
+
+}
+
+
+

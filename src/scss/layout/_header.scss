@@ -1,5 +1,34 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header__title{
+    font-family: $font-rubik;
+    size: 16px;
+    background-color: $color-blue-green;
+    color: $color-white;
+    height: 60px;
+    text-align: center;
+    padding: 15px 80px;
+    text-transform: uppercase;   
+    background-image: url(/src/images/1.jpg);
+    background-repeat: no-repeat;
 }
+.navegation{
+    font-family: $font-rubik;
+    size: 15px;
+    background-color: $color-aqua;
+    color: $color-white;
+    height: 45px;
+    text-transform: uppercase;
+   
+    
+    }
+.navegation__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px 15px;
+    
+
+}
+.navegation__ul li{
+   
+}
+

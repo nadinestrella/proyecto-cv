@@ -1,0 +1,52 @@
+.decoration{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    
+    transform:  translateY(-14px)  rotate(45deg) ;
+}
+.greycontainer{
+    height: 579px;
+    background-color: $color-light-grey-blue;
+    
+    padding-left: 15px;  
+    padding-right: 15px;
+
+
+    &__streng{ /*POSIBLE MIXIN*/
+        padding-top: 30px;
+        font-family: $font-rubik;
+        color: $color-blue-green;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        &--p{
+            color: $color-gunmental;
+            font-family: $font-open;
+            font-size: 16px;
+
+        }
+
+    }
+    &__weakness{
+        padding-top: 30px;
+        font-family: $font-rubik;
+        color: $color-blue-green;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        &--p{
+            color: $color-gunmental;
+            font-family: $font-open;
+            font-size: 16px;
+        }
+
+    }
+    
+}
+
