@@ -1,10 +1,10 @@
 .decoration{
     width: 30px;
     height: 30px;
-    background-color: black;
-    position: absolute;
-    
-    transform:  translateY(-14px)  rotate(45deg) ;
+    background-color: $color-white;
+    transform:   translateY(16px) rotate(45deg);
+    margin: auto;
+    z-index: 100;
 }
 .greycontainer{
     height: 579px;
@@ -23,14 +23,9 @@
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
-        &--p{
-            color: $color-gunmental;
-            font-family: $font-open;
-            font-size: 16px;
-
-        }
-
+        
     }
+   
     &__weakness{
         padding-top: 30px;
         font-family: $font-rubik;
@@ -40,11 +35,14 @@
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
-        &--p{
-            color: $color-gunmental;
-            font-family: $font-open;
-            font-size: 16px;
-        }
+       
+    }
+    & p{
+        color: $color-gunmental;
+        font-family: $font-open;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
 
     }
     
