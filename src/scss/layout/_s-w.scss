@@ -9,12 +9,44 @@
 .greycontainer{
     height: 579px;
     background-color: $color-light-grey-blue;
-    
     padding-left: 15px;  
     padding-right: 15px;
+    
+
+    @media (min-width: 768px){
+        height: 333px;
+        padding: 45px 44.8px 60px 45px;
+        display: flex;
+    }
+
+    @media (min-width: 1200px){
+        height: 309px;
+        padding: 45px 138px 60px;  
+    }
+
+    & h2{
+        
+        align-content: center;
+        font-size: 22px;
+        font-family: $font-rubik;
+        
+
+    }
+
+    & p{
+        color: $color-gunmental;
+        font-family: $font-open;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
+        
+    }
 
 
-    &__streng{ /*POSIBLE MIXIN*/
+
+
+
+    &__streng{ 
         padding-top: 30px;
         font-family: $font-rubik;
         color: $color-blue-green;
@@ -23,6 +55,15 @@
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
+
+        @media (min-width: 768px){
+            
+        }
+    
+        @media (min-width: 1200px){}
+            
+
+        
         
     }
    
@@ -37,14 +78,7 @@
         text-align: center;
        
     }
-    & p{
-        color: $color-gunmental;
-        font-family: $font-open;
-        font-size: 16px;
-        justify-content: center;
-        text-align: center;
-
-    }
+    
     
 }
 

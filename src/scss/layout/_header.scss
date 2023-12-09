@@ -7,10 +7,46 @@
     background-size: cover;
     width: 100%;
     font-family: $font-rubik;
-    
-    
-    
-    
+
+    @media (min-width:768px){
+         display: flex;
+         flex-direction: row;
+         background-color: red;
+    }
+
+    &__navegation{
+        font-family: $font-rubik;
+        size: 15px;
+        background-color: $color-aqua;
+        color: $color-white;
+        height: 45px;
+        opacity: 70%;
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        z-index: 100;
+        padding-top: 12px;
+        padding-bottom: 9px;
+        
+
+        @media (min-width:768px){
+        display: flex;
+         flex-direction: row;
+               
+        }
+
+        &--ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around ;
+            list-style: none;
+            text-decoration: none;
+            
+        } 
+
+    }
+
+
     &__title{
         font-family: $font-rubik;
         size: 16px;
@@ -25,36 +61,48 @@
         top: 0;
         width: 100%;
     }
-    &__navegation{
-        font-family: $font-rubik;
-        size: 15px;
-        background-color: $color-aqua;
-        color: $color-white;
-        height: 45px;
-        opacity: 70%;
-        position: fixed;
-        top: 60px;
-        width: 100%;
-        z-index: 100;
-        padding-top: 12px;
-        padding-bottom: 9px;
-       
-        
-        &--ul{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around ;
-            list-style: none;
-        }
-            
-           
-        
-
-    }
+    
+    
+    
+}
+    
+.team__quote{
+    width: 290px;
+    height: 80px;
+    font-size: 18px;
+    color: $color-black;
+    padding: 15px;
+    position: relative;
+    transform: translateY(-30px);
+    background-color: $color-white;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
     
 
 
+    @media (min-width: 768px){
+        width: 441px;
+        padding: 15px 30px;
+        transform: translateY(-80px);
+        opacity: 0.8;
+        margin-left: 46px;
+       
+    }
+    @media (min-width: 1200px){
+        width: 574px;
+        height: 90px;
+        transform: translateY(-90px);
+        margin-left: 138px;
+        
+        font-size: 24px;
+      
+        
+    }
 }
+
+
 
 
 

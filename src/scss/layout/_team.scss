@@ -1,11 +1,11 @@
 .team__description{
-    height: 504px ;
     margin: 15px;
 
     @media (min-width: 768px){
         height: 303px;
         margin-left: 45px;
         margin-right: 45px;
+        
     }
     @media (min-width: 1200px){
         height: 357px;
@@ -21,9 +21,11 @@
         justify-content: center;
         text-align: center;
         padding-bottom: 15px;
+        font-family: $font-rubik;
 
         @media (min-width: 768px){
             padding-bottom:45px;
+            padding-top: 30px;
         }
         
         & p{
@@ -36,34 +38,6 @@
     }
 }
     
-.team__quote{
-    width: 290px;
-    height: 80px;
-    font-size: 18px;
-    color: $color-black;
-    padding: 15px;
-    position: relative;
-    transform: translateY(-420px);
-    background-color: $color-white;
-   /*margin: 387px 15px 0;*/
-    
 
-    @media (min-width: 768px){
-        width: 441px;
-        padding: 15px 30px;
-        transform: translateY(-350px);
-        opacity: 0.8;
-        margin: 281px 281px 0 46px;
-    }
-    @media (min-width: 1200px){
-        width: 574px;
-        height: 90px;
-        transform: translateY(-490px);
-        margin: 400px 488px 0 138px;
-        font-size: 24px;
-      
-        
-    }
-}
 
 
